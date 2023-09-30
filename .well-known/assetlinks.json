@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.denniscode.collabio",
+    "sha256_cert_fingerprints":
+    ["21:0A:BD:54:42:82:92:AE:F2:12:25:6F:A1:7C:93:99:C0:E8:E7:CC:39:43:D8:DD:58:21:60:CC:52:B6:A4:73"]
+  }
+}]

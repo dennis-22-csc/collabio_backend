@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Deletion Request</title>
+    <style>
+        body {
+            background-color: #EBDDFF;
+            color: #333333;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #FFFFFF;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+       	text-align: center;	
+       } 
+        form {
+            margin-top: 20px;
+            text-align: center;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            margin: 0;
+            border: 1px solid #CCCCCC;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #673AB7;
+            color: #FFFFFF;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #555555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Account Deletion Request</h1>
+        <form method="POST">
+            <label for="email">Enter your email address:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <script>
+        // Get the URL parameters
+        const urlParams = new URLSearchParams(window.location.search);
+        const successMessage = urlParams.get('success');
+        
+         // Display an alert if the success message is present
+    	if (successMessage === 'true') {
+        	const alertContainer = document.createElement('div');
+        	alertContainer.style.backgroundColor = '#4527A0'; // Darker shade of purple
+        	alertContainer.style.color = '#FFFFFF';
+        	alertContainer.style.padding = '10px 20px';
+        	alertContainer.style.borderRadius = '5px';
+        	alertContainer.style.marginTop = '10px';
+        	alertContainer.style.textAlign = 'center';
+        	alertContainer.textContent = "Account deletion request submitted successfully.";
+
+        	document.body.appendChild(alertContainer);
+    	}
+    </script>
+</body>
+</html>

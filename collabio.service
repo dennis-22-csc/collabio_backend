@@ -1,0 +1,13 @@
+[Unit]
+Description=Collabio Gunicorn Service
+After=network.target
+
+[Service]
+User=ubuntu
+Group=www-data
+WorkingDirectory=/home/ubuntu/collabio_backend
+ExecStart=/home/ubuntu/collabio_backend/collabioenv/bin/gunicorn -k eventlet --workers 1 --bind unix:/home/ubuntu/collabio_backend/app.sock -m 007 --umask 007 wsgi:app
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

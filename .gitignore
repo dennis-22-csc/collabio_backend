@@ -1,0 +1,4 @@
+collabioenv/
+__pycache__
+.mypy_cache
+firebase.json

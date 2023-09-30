@@ -1,0 +1,297 @@
+2023-08-17 02:00:27,661 - ERROR - Exception on /del-user [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/collabio_backend/app.py", line 120, in delete_account
+    return redirect(url_for('del-user-success'))
+NameError: name 'redirect' is not defined
+2023-08-17 02:06:33,267 - ERROR - Exception on /del-user [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/collabio_backend/app.py", line 120, in delete_account
+    return redirect(url_for('del-user-success'))
+NameError: name 'redirect' is not defined
+2023-08-17 02:14:14,906 - ERROR - Exception on /del-user [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/collabio_backend/app.py", line 117, in delete_account
+    return redirect(url_for('del-user-success'))
+NameError: name 'redirect' is not defined
+2023-08-17 02:21:58,379 - ERROR - Exception on /del-user [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/collabio_backend/app.py", line 117, in delete_account
+    return redirect(url_for('del-user-success'))
+NameError: name 'redirect' is not defined
+2023-08-17 02:28:37,450 - ERROR - Exception on /del-account [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/collabio_backend/app.py", line 117, in delete_account
+    return redirect(url_for('del-account-success'))
+NameError: name 'url_for' is not defined
+2023-08-18 21:37:23,465 - ERROR - Exception on /get-user [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/collabio_backend/app.py", line 59, in get_user
+    result = get_user_info(email)
+  File "/home/ubuntu/collabio_backend/database.py", line 297, in get_user_info
+    'first_name': result[0],
+TypeError: 'NoneType' object is not subscriptable
+2023-08-21 14:29:06,368 - ERROR - Exception on /get-user [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/collabio_backend/app.py", line 59, in get_user
+    result = get_user_info(email)
+  File "/home/ubuntu/collabio_backend/database.py", line 297, in get_user_info
+    'first_name': result[0],
+TypeError: 'NoneType' object is not subscriptable
+2023-08-21 21:27:32,887 - ERROR - Exception on /project [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/collabio_backend/app.py", line 99, in create_new_project
+    asyncio.create_task(sendMatchingProjectEmail("dennisakpotaire@gmail.com", "Dennis"))
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 381, in create_task
+    loop = events.get_running_loop()
+RuntimeError: no running event loop
+2023-08-21 21:38:18,598 - ERROR - Exception on /project [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/collabio_backend/app.py", line 99, in create_new_project
+    asyncio.create_task(sendMatchingProjectEmail("dennisakpotaire@gmail.com", "Dennis"),  app=current_app)
+TypeError: create_task() got an unexpected keyword argument 'app'
+2023-08-26 13:39:09,138 [ERROR] An error occurred: division by zero
+2023-08-26 20:13:53,360 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-08-26 20:13:53,361 [INFO] [33mPress CTRL+C to quit[0m
+2023-08-26 20:54:34,385 [ERROR] Error occurred: {'dennisakpotaire-gmail.com': (553, b'5.1.3 The recipient address <dennisakpotaire-gmail.com> is not a valid\n5.1.3 RFC-5321 address. Learn more at\n5.1.3  https://support.google.com/mail/answer/6596 oq39-20020a05620a612700b0076ef7810f27sm1344496qkn.58 - gsmtp')}
+2023-08-27 05:10:45,020 [ERROR] Error downloading image. b'{"error_summary": "expired_access_token/..", "error": {".tag": "expired_access_token"}}'
+2023-08-28 08:41:13,971 [ERROR] Error downloading image. b'{"error_summary": "expired_access_token/..", "error": {".tag": "expired_access_token"}}'
+2023-08-28 08:41:13,974 [ERROR] Error downloading image. b'{"error_summary": "expired_access_token/..", "error": {".tag": "expired_access_token"}}'
+2023-08-28 08:41:44,624 [ERROR] Error downloading image. b'{"error_summary": "expired_access_token/", "error": {".tag": "expired_access_token"}}'
+2023-08-28 08:41:44,627 [ERROR] Error downloading image. b'{"error_summary": "expired_access_token/..", "error": {".tag": "expired_access_token"}}'
+2023-08-28 08:56:41,931 [ERROR] Error downloading image. b'{"error_summary": "expired_access_token/..", "error": {".tag": "expired_access_token"}}'
+2023-08-28 08:59:02,342 [ERROR] Error downloading image. b'{"error_summary": "expired_access_token/..", "error": {".tag": "expired_access_token"}}'
+2023-08-28 08:59:02,344 [ERROR] Exception on /get-other-user [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/collabio_backend/app.py", line 96, in get_other_user
+    return jsonify({"error": "dropbox " + dropbox_result})
+TypeError: can only concatenate str (not "NoneType") to str
+2023-08-28 16:10:21,003 [ERROR] Error downloading image. b'{"error_summary": "expired_access_token/...", "error": {".tag": "expired_access_token"}}'
+2023-08-28 16:12:09,616 [ERROR] Error downloading image. b'{"error_summary": "expired_access_token/.", "error": {".tag": "expired_access_token"}}'
+2023-08-28 16:26:10,462 [ERROR] Error downloading image. b'{"error_summary": "expired_access_token/.", "error": {".tag": "expired_access_token"}}'
+2023-08-28 16:43:03,087 [ERROR] Error downloading image. b'{"error_summary": "expired_access_token/.", "error": {".tag": "expired_access_token"}}'
+2023-08-28 19:03:16,159 [ERROR] Error downloading image. b''
+2023-08-28 19:31:02,381 [ERROR] Error downloading image. b'{"error_summary": "expired_access_token/...", "error": {".tag": "expired_access_token"}}'
+2023-08-28 19:32:19,718 [ERROR] Error downloading image. b'{"error_summary": "expired_access_token/.", "error": {".tag": "expired_access_token"}}'
+2023-08-28 19:36:31,944 [ERROR] Token expired, generating new token
+2023-08-28 19:36:44,159 [ERROR] Error downloading image. b'{"error_summary": "expired_access_token/", "error": {".tag": "expired_access_token"}}'
+2023-08-28 19:43:31,433 [ERROR] Token expired, generating new token
+2023-08-29 11:43:54,477 [ERROR] Error downloading image. b'{"error_summary": "expired_access_token/.", "error": {".tag": "expired_access_token"}}'
+2023-08-29 11:44:14,873 [ERROR] Error downloading image. b'{"error_summary": "expired_access_token/.", "error": {".tag": "expired_access_token"}}'
+2023-08-29 11:58:48,596 [ERROR] An error occurred while restarting collabio: Command '['sudo', 'systemctl', 'restart', 'collabio']' died with <Signals.SIGTERM: 15>.
+2023-08-29 11:58:49,494 [ERROR] An error occurred while restarting collabio: Command '['sudo', 'systemctl', 'restart', 'collabio']' died with <Signals.SIGTERM: 15>.
+2023-08-29 11:58:50,433 [ERROR] An error occurred while restarting collabio: Command '['sudo', 'systemctl', 'restart', 'collabio']' died with <Signals.SIGTERM: 15>.
+2023-08-29 11:58:51,400 [ERROR] An error occurred while restarting collabio: Command '['sudo', 'systemctl', 'restart', 'collabio']' died with <Signals.SIGTERM: 15>.
+2023-08-29 11:58:52,350 [ERROR] An error occurred while restarting collabio: Command '['sudo', 'systemctl', 'restart', 'collabio']' died with <Signals.SIGTERM: 15>.
+2023-08-29 11:58:52,399 [ERROR] An error occurred while restarting nginx: Command '['sudo', 'systemctl', 'restart', 'nginx']' returned non-zero exit status 1.
+2023-08-29 16:15:15,329 [ERROR] Error downloading image. b'{"error_summary": "expired_access_token/", "error": {".tag": "expired_access_token"}}'
+2023-08-29 16:15:36,093 [ERROR] Error downloading image. b'{"error_summary": "expired_access_token/..", "error": {".tag": "expired_access_token"}}'
+2023-08-29 16:16:08,118 [ERROR] Error downloading image. b'{"error_summary": "expired_access_token/...", "error": {".tag": "expired_access_token"}}'
+2023-08-29 16:17:04,547 [ERROR] Error downloading image. b'{"error_summary": "expired_access_token/..", "error": {".tag": "expired_access_token"}}'
+2023-08-29 16:26:22,512 [ERROR] Error downloading image. b'{"error_summary": "expired_access_token/...", "error": {".tag": "expired_access_token"}}'
+2023-08-30 08:02:19,876 [ERROR] Exception on /create-user [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/collabio_backend/app.py", line 128, in create_new_user
+    image_result = upload_image(user_data['picture_bytes'])
+  File "/home/ubuntu/collabio_backend/manage_dropbox.py", line 80, in upload_image
+    upload_result = dbx.files_upload(image_bytes, remote_image_path, mode=dropbox.files.WriteMode('overwrite'))
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/dropbox/base.py", line 3210, in files_upload
+    r = self.request(
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/dropbox/dropbox_client.py", line 326, in request
+    res = self.request_json_string_with_retry(host,
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/dropbox/dropbox_client.py", line 476, in request_json_string_with_retry
+    return self.request_json_string(host,
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/dropbox/dropbox_client.py", line 596, in request_json_string
+    self.raise_dropbox_error_for_resp(r)
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/dropbox/dropbox_client.py", line 639, in raise_dropbox_error_for_resp
+    raise AuthError(request_id, err)
+dropbox.exceptions.AuthError: AuthError('304f6ecb7faf4a02b6aa92702f0033d1', AuthError('expired_access_token', None))
+2023-08-30 14:50:56,347 [ERROR] Error downloading image. b'{"error_summary": "expired_access_token/", "error": {".tag": "expired_access_token"}}'
+2023-08-30 14:55:25,397 [ERROR] Error downloading image. b'{"error_summary": "expired_access_token/..", "error": {".tag": "expired_access_token"}}'
+2023-08-30 14:57:34,716 [ERROR] Error downloading image. b'{"error_summary": "expired_access_token/...", "error": {".tag": "expired_access_token"}}'
+2023-09-13 20:58:27,101 [ERROR] Exception on /create-user [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/collabio_backend/app.py", line 133, in create_new_user
+    image_result = upload_image(user_data['picture_bytes'])
+  File "/home/ubuntu/collabio_backend/manage_dropbox.py", line 105, in upload_image
+    image_bytes = base64.b64decode(image_bytes_string)
+  File "/usr/lib/python3.8/base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Invalid base64-encoded string: number of data characters (21) cannot be 1 more than a multiple of 4
+2023-09-13 21:03:08,886 [ERROR] Exception on /create-user [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/collabio_backend/app.py", line 133, in create_new_user
+    image_result = upload_image(user_data['picture_bytes'])
+  File "/home/ubuntu/collabio_backend/manage_dropbox.py", line 105, in upload_image
+    image_bytes = base64.b64decode(image_bytes_string)
+  File "/usr/lib/python3.8/base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Invalid base64-encoded string: number of data characters (21) cannot be 1 more than a multiple of 4
+2023-09-13 21:07:21,507 [ERROR] Exception on /create-user [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/collabio_backend/app.py", line 133, in create_new_user
+    image_result = upload_image(user_data['picture_bytes'])
+  File "/home/ubuntu/collabio_backend/manage_dropbox.py", line 105, in upload_image
+    image_bytes = base64.b64decode(image_bytes_string)
+  File "/usr/lib/python3.8/base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Invalid base64-encoded string: number of data characters (21) cannot be 1 more than a multiple of 4
+2023-09-13 21:10:45,591 [ERROR] Exception on /create-user [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/collabio_backend/collabioenv/lib/python3.8/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/collabio_backend/app.py", line 133, in create_new_user
+    image_result = upload_image(user_data['picture_bytes'])
+  File "/home/ubuntu/collabio_backend/manage_dropbox.py", line 105, in upload_image
+    image_bytes = base64.b64decode(image_bytes_string)
+  File "/usr/lib/python3.8/base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Invalid base64-encoded string: number of data characters (21) cannot be 1 more than a multiple of 4
